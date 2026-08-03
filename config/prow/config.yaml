@@ -85,6 +85,9 @@ plank:
         initupload: us-docker.pkg.dev/k8s-infra-prow/images/initupload:v20240802-66b115076
         sidecar: us-docker.pkg.dev/k8s-infra-prow/images/sidecar:v20240802-66b115076
 
+sinker:
+  max_prowjob_age: 48h
+
 tide:
   sync_period: 2m
   queries:
