@@ -16,7 +16,7 @@ spec:
         spec:
           containers:
             - name: label-sync
-              image: gcr.io/k8s-staging-test-infra/label_sync:v20250306-095fc63a16
+              image: gcr.io/k8s-staging-test-infra/label_sync:v20260714-c52c557180
               args:
                 - --config=/etc/config/labels.yaml
                 - --confirm=true
